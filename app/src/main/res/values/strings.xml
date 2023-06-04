@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ElectricityCostCalculator</string>
+    <string name="consumption">Tüketim</string>
+    <string name="rate">Oran</string>
+</resources>

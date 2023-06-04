@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.ActionTableActivity">
+
+    <com.example.electricitycostcalculator.helper.CustomEditText
+        android:layout_marginTop="5dp"
+        android:hint="Başlangıç birimi girebiliriniz."
+        android:inputType="number"
+        android:id="@+id/textview_start_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.electricitycostcalculator.helper.CustomEditText
+        android:hint="Bitiş birimi girebiliriniz."
+        android:inputType="number"
+        android:id="@+id/textview_end_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.electricitycostcalculator.helper.CustomEditText
+        android:layout_marginTop="5dp"
+        android:hint="Biri fiyatı girebilirsiniz."
+        android:inputType="number"
+        android:id="@+id/textview_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+     <Button
+         android:id="@+id/button_save"
+         android:text="Ekle"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"/>
+</LinearLayout>
